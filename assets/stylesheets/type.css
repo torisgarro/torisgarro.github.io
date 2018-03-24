@@ -1,0 +1,88 @@
+body {
+    font-family: 'Cormorant Infant', serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    line-height: 21px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    line-height: 21px;
+}
+
+a:hover, .next:hover, .previous:hover {
+    color: #009ED7;
+}
+
+a:visited {
+    color: black;
+}
+
+span {
+    color: #9B9B9B;
+}
+
+.marginTop {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 400px) {
+    .main-content-grid__fullWidthImage p {
+        margin: 0 0 40px 0;
+    }
+    
+    .main-content-grid__pageText h2 {
+        margin: 0 0 40px 0;
+    }
+
+    .marginTop {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
