@@ -52,7 +52,10 @@
     #projects {
         margin-left: 0px;
     }
+}
 
+.wrapperNav a {
+    color: black;
 }
 
 .navOption {
