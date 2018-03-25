@@ -18,6 +18,8 @@
     <link href="./assets/stylesheets/type.css" rel="stylesheet">
     <link href="./assets/stylesheets/writing-page.css" rel="stylesheet">
 
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -37,21 +39,21 @@
     </div>
 
     <div class="wrapperContent">
-            <div class="project-gallery__intro">
+            <div class="project-gallery__intro" data-aos="fade" data-aos-delay="300" data-aos-duration="7000">
                     <h1>I’m a UI/UX designer currently working at Panoply Media in Washington, D.C.</h1>
                 </div>
                 
-                <a href="./pages/_case_study_1.html" id="pinnaThumbnail">
+                <a href="./pages/_case_study_1.html" id="pinnaThumbnail" data-aos="fade" data-aos-delay="500" data-aos-duration="7000">
                     <img src="./assets/images/pinna-9.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
                     <h4 id="pinnaThumbnail">Pinna</h4>
                 </a>
                 
-                <a href="./pages/_case_study_2.html" id="megaphoneThumbnail">
+                <a href="./pages/_case_study_2.html" id="megaphoneThumbnail" data-aos="fade" data-aos-delay="700" data-aos-duration="7000">
                     <img src="./assets/images/mgphn-3.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
                     <h4 id="megaphoneThumbnail">Megaphone</h4>
                 </a>
                 
-                <a href="./pages/_case_study_3.html" id="gaThumbnail">
+                <a href="./pages/_case_study_3.html" id="gaThumbnail" data-aos="fade" data-aos-delay="100" data-aos-duration="7000">
                     <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
                     <h4 id="atWhatCostThumbnail">At What Cost?</h4>
                 </a>
@@ -61,6 +63,7 @@
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
 
+    <script>AOS.init();</script>
 </body>
 
 </html>
