@@ -18,8 +18,6 @@
     <link href="./assets/stylesheets/type.css" rel="stylesheet">
     <link href="./assets/stylesheets/writing-page.css" rel="stylesheet">
 
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -32,38 +30,42 @@
 
         <div class="wrapperNav__nav">
             <a href="index.html" class="navOption navOption--active" id="projects">Projects</a>
-            <a href="./pages/_photography.html" class="navOption" id="photography">Photos</a>
-            <a href="./pages/_writing.html" class="navOption" id="writing">Writing</a>
-            <a href="./pages/_about.html" class="navOption" id="about">About</a>
+            <a href="./photography/index.html" class="navOption" id="photography">Photos</a>
+            <a href="./writing/index.html" class="navOption" id="writing">Writing</a>
+            <a href="./about/index.html" class="navOption" id="about">About</a>
         </div>
     </div>
 
     <div class="wrapperContent">
-            <div class="project-gallery__intro" data-aos="fade" data-aos-delay="300" data-aos-duration="7000">
+            <div class="project-gallery__intro slideIn">
                     <h1>I’m a UI/UX designer currently working at Panoply Media in Washington, D.C.</h1>
                 </div>
                 
-                <a href="./pages/_case_study_1.html" id="pinnaThumbnail" data-aos="fade" data-aos-delay="500" data-aos-duration="7000">
+                <a href="./projects/pinna.html" id="pinnaThumbnail" class="slideIn">
                     <img src="./assets/images/pinna-9.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
-                    <h4 id="pinnaThumbnail">Pinna</h4>
+                    <h4>Pinna</h4>
                 </a>
                 
-                <a href="./pages/_case_study_2.html" id="megaphoneThumbnail" data-aos="fade" data-aos-delay="700" data-aos-duration="7000">
+                <a href="./projects/megaphone.html" id="megaphoneThumbnail" class="slideIn">
                     <img src="./assets/images/mgphn-3.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
-                    <h4 id="megaphoneThumbnail">Megaphone</h4>
+                    <h4>Megaphone</h4>
                 </a>
                 
-                <a href="./pages/_case_study_3.html" id="gaThumbnail" data-aos="fade" data-aos-delay="100" data-aos-duration="7000">
+                <a href="./projects/at-what-cost.html" id="gaThumbnail" class="slideIn">
                     <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
-                    <h4 id="atWhatCostThumbnail">At What Cost?</h4>
+                    <h4>At What Cost?</h4>
                 </a>
+
+                <!-- <a href="./projects/asylumconnect.html" id="acThumbnail" class="slideIn">
+                    <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
+                    <h4>AsylumConnect</h4>
+                </a> -->
     </div>
 
     <div class="wrapperFooter">
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
 
-    <script>AOS.init();</script>
 </body>
 
 </html>

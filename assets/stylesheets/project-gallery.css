@@ -36,8 +36,13 @@
     justify-self: start;
 }
 
+#acThumbnail {
+    grid-column: 7 / 13;
+    justify-self: start;
+}
+
 @media screen and (max-width: 1200px) {
-    #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail {
+    #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail, #acThumbnail {
         grid-column: 1 / 13;
         justify-self: center;
     }
