@@ -73,6 +73,13 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .navOption {
+        margin: 0 5px;
+        font-size: 13px;
+    }
+}
+
 .navOption--active {
     border-bottom: solid 1px #009ED7;
 }
