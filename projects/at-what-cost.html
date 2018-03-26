@@ -39,15 +39,15 @@
     </div>
 
     <div class="wrapperContent">
-        <div class="main-content-grid__pageText--center slideIn">
+        <div class="main-content-grid__pageText--center slideIn" data-scroll>
             <h1>At What Cost?</h1>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn">
+        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
             <img src="../assets/images/ga-hero.jpg" alt="At What Cost Desktop Mockup" class="heroPhoto">
         </div>
 
-        <div class="main-content-grid__pageText slideIn">
+        <div class="main-content-grid__pageText slideIn" data-scroll>
             <h2>I created this site for my final project in General Assembly’s front-end web development course. The site is
                 a tool for designers to consider the ethical implications of their work.</h2>
             <h3>Background</h3>
@@ -57,7 +57,7 @@
                 stakeholders in the exercises I created.</p>
         </div>
 
-        <div class="main-content-grid__sideBar slideIn">
+        <div class="main-content-grid__sideBar slideIn" data-scroll>
             <div class="main-content-grid__sideBar__firstRow">
                 <h6>My Role</h6>
                 <p>Designer & Front-End Developer, General Assembly</p>
@@ -77,34 +77,34 @@
     </div>
 
     <div class="wrapperContent--noTopBottomMargin">
-        <div class="main-content-grid__fullWidthImage slideIn">
+        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
             <img src="../assets/images/ga-sketch.jpg" alt="At What Cost Sketches" class="largePhoto">
             <p>Sketches</p>
         </div>
 
-        <div class="main-content-grid__pageText slideIn">
+        <div class="main-content-grid__pageText slideIn" data-scroll>
             <h3>Mockups</h3>
             <p>I designed the site with a minimalistic and high-tech aesthetic likely to appeal to other experience and interface
                 designers. I also chose an elegant serif typeface to give the site an academic feel. I then created mockups for tablet and mobile breakpoints, so that I could develop the site responsively.</p>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn">
+        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
             <img src="../assets/images/ga-1.jpg" alt="At What Cost Exercise Pages" class="largePhoto">
             <p>Exercise pages</p>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn">
+        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
             <img src="../assets/images/ga-2.jpg" alt="At What Cost Mobile Mockups" class="largePhoto">
             <p>Mobile views</p>
         </div>
 
-        <div class="main-content-grid__previousProject slideIn">
+        <div class="main-content-grid__previousProject slideIn" data-scroll>
             <a href="./megaphone.html" class="previous">
                 <img src="../assets/images/chevron-left.png" alt="Left Arrow" class="leftArrow">
                 <strong>Previous Project:</strong> Megaphone</a>
         </div>
 
-        <div class="main-content-grid__nextProject slideIn">
+        <div class="main-content-grid__nextProject slideIn" data-scroll>
             <a href="./pinna.html" class="next">
                 <strong>Next Project:</strong> Pinna
                 <img src="../assets/images/chevron-right.png" alt="Right Arrow" class="rightArrow">
@@ -116,9 +116,24 @@
     <div class="wrapperFooter">
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    
+    <script src="./assets/javascript/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var trigger = new ScrollTrigger({
+                toggle: {
+                    visible: 'visibleClass',
+                    hidden: 'hiddenClass'
+                },
+                offset: {
+                    x: 0,
+                    y: 20
+                },
+                addHeight: true,
+                once: true
+            }, document.body, window);
+        });
+    </script>
 </body>
 
 </html>

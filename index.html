@@ -19,7 +19,7 @@
     <link href="./assets/stylesheets/writing-page.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head> 
+</head>
 
 <body>
 
@@ -38,37 +38,53 @@
     </div>
 
     <div class="wrapperContent">
-            <div class="project-gallery__intro slideIn">
-                    <h1>I’m a UI/UX designer currently working at Panoply Media in Washington, D.C.</h1>
-                </div>
-                
-                <a href="./projects/pinna.html" id="pinnaThumbnail" class="slideIn">
-                    <img src="./assets/images/pinna-9.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
-                    <h4>Pinna</h4>
-                </a>
-                
-                <a href="./projects/megaphone.html" id="megaphoneThumbnail" class="slideIn">
-                    <img src="./assets/images/mgphn-3.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
-                    <h4>Megaphone</h4>
-                </a>
-                
-                <a href="./projects/at-what-cost.html" id="gaThumbnail" class="slideIn">
-                    <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
-                    <h4>At What Cost?</h4>
-                </a>
+        <div class="project-gallery__intro slideIn" data-scroll>
+            <h1>I’m a UI/UX designer currently working at Panoply Media in Washington, D.C.</h1>
+        </div>
 
-                <!-- <a href="./projects/asylumconnect.html" id="acThumbnail" class="slideIn">
-                    <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
-                    <h4>AsylumConnect</h4>
-                </a> -->
+        <a href="./projects/pinna.html" id="pinnaThumbnail" class="slideIn" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/pinna-9.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
+                <h4>Pinna</h4>
+            </div>
+        </a>
+
+        <a href="./projects/megaphone.html" id="megaphoneThumbnail" class="slideIn" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/mgphn-3.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
+                <h4>Megaphone</h4>
+            </div>
+        </a>
+
+        <a href="./projects/at-what-cost.html" id="gaThumbnail" class="slideIn" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/ga-3.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
+                <h4>At What Cost?</h4>
+            </div>
+        </a>
     </div>
 
     <div class="wrapperFooter">
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script src="./assets/javascript/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var trigger = new ScrollTrigger({
+                toggle: {
+                    visible: 'visibleClass',
+                    hidden: 'hiddenClass'
+                },
+                offset: {
+                    x: 0,
+                    y: 20
+                },
+                addHeight: true,
+                once: true
+            }, document.body, window);
+        });
+    </script>
 </body>
 
 </html>

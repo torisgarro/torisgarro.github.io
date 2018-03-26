@@ -45,7 +45,7 @@
 
         <div class="main-content-grid__pageText slideIn">
             <h1 class="leftAlign">About</h1>
-            <p>Hi, I’m Tori! I’m a designer because it empowers me to be intentional about the impact I have on others and the world.</p>
+            <p>Hi, I’m Tori! I'm a designer because design empowers me to intentionally create a positive impact.</p>
             <p>Before pursuing a career as a designer, I studied comparative literature, foreign languages and journalism. I learned the importance of empathizing with others’ perspectives across backgrounds and cultures, questioning my own assumptions, and considering the larger context of my work. These skills make up the foundation of my approach to design today.</p>
 
         </div>
@@ -80,8 +80,21 @@
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-</body>
-
+    <script src="./assets/javascript/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var trigger = new ScrollTrigger({
+                toggle: {
+                    visible: 'visibleClass',
+                    hidden: 'hiddenClass'
+                },
+                offset: {
+                    x: 0,
+                    y: 20
+                },
+                addHeight: true,
+                once: true
+            }, document.body, window);
+        });
+    </script>
 </html>

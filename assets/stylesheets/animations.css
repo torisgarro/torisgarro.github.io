@@ -1,6 +1,15 @@
-/* .thumbnail:hover {
-    transform: scale(.85);
-} */
+/* Thumbnail Animation -- NOT WORKING */
+
+.thumbnailContainer:hover {
+    clip-path: inset(80%, 80%);
+    transform: scale(1.1);
+}
+
+/* Scroll Trigger Animation -- NOT WORKING */
+
+.visible {
+    animation: slidein 1s ease forwards;
+}
 
 /* Slide In Animation */
 
