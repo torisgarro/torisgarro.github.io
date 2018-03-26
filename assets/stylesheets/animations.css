@@ -66,16 +66,3 @@
         opacity: 1;
     }
 }
-
-/* Nav Underline Animation */
-
-.navOption {
-    border-bottom: solid 1px transparent;    
-    width: 0px;
-    transition: 0.5s ease;
-}
-
-.navOption:hover {
-    border-bottom: solid 1px #009ED7;
-    width: 100%;
-}
