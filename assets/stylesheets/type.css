@@ -13,12 +13,13 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
+    line-height: 30px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: .5px;
     text-transform: uppercase;
@@ -66,6 +67,10 @@ a:hover, .next:hover, .previous:hover {
     color: black;
 }
 
+.thumbnailContainer h4 {
+    margin-top: 15px;
+}
+
 a:visited {
     color: black;
 }
@@ -97,5 +102,10 @@ span {
 
     h1 {
         font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 22px;
+        line-height: auto;
     }
 }
