@@ -1,4 +1,4 @@
-/* Thumbnail Animation -- NOT WORKING */
+/* Thumbnail Animation */
 
 .thumbnail {
     -webkit-transition: all .35s ease-in-out;
@@ -14,45 +14,38 @@
 }
 
 .thumbnailContainer:hover {
+    -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
     transform: scale(.98);
 }
 
 .thumbnailContainer > img {
-    margin: 0
+    margin: 0;
 }
 
 .thumbnailContainer:hover > .thumbnail {
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
     transform: scale(1.09);
 }
 
 /* Scroll Trigger Animation -- NOT WORKING */
 
 .visible {
+    -webkit-animation: slidein 1s ease forwards;
+    -moz-animation: slidein 1s ease forwards;
     animation: slidein 1s ease forwards;
 }
 
 /* Slide In Animation */
 
  .slideIn {
-    animation: slidein 1s ease forwards;
     -webkit-animation: slidein 1s ease forwards;
     -moz-animation: slidein 1s ease forwards;
-    -ms-animation: slidein 1s ease forwards;
-    -o-animation: slidein 1s ease forwards;
+    animation: slidein 1s ease forwards;
  }
 
-@keyframes slidein {
-    from {
-        transform: translate3d(0, 10%, 0);
-        opacity: 0;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes slidein {
+ @-webkit-keyframes slidein {
     from {
         transform: translate3d(0, 10%, 0);
         opacity: 0;
@@ -74,18 +67,7 @@
     }
 }
 
-@-ms-keyframes slidein {
-    from {
-        transform: translate3d(0, 10%, 0);
-        opacity: 0;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@-o-keyframes slidein {
+@keyframes slidein {
     from {
         transform: translate3d(0, 10%, 0);
         opacity: 0;
