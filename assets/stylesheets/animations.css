@@ -1,8 +1,28 @@
 /* Thumbnail Animation -- NOT WORKING */
 
+.thumbnail {
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.thumbnailContainer {
+    overflow: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
 .thumbnailContainer:hover {
-    clip-path: inset(80%, 80%);
-    transform: scale(1.1);
+    transform: scale(.98);
+}
+
+.thumbnailContainer > img {
+    margin: 0
+}
+
+.thumbnailContainer:hover > .thumbnail {
+    transform: scale(1.09);
 }
 
 /* Scroll Trigger Animation -- NOT WORKING */
