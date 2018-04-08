@@ -21,7 +21,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,18 +40,21 @@
     </div>
 
     <div class="wrapperContent">
-        <div class="main-content-grid__fullWidthImage slideIn">
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/IMG_3430.jpg" alt="About Photo" class="heroPhoto">
         </div>
 
-        <div class="main-content-grid__pageText slideIn">
+        <div class="main-content-grid__pageText" data-scroll>
             <h1 class="leftAlign">About</h1>
             <p>Hi, I’m Tori! As a designer, I want to consider the intention and impact of my work.</p>
-            <p>Before pursuing a career in design, I studied comparative literature, foreign languages and journalism. I learned the importance of empathizing with others’ perspectives across backgrounds and cultures, questioning my own assumptions, and considering the larger context of my work. These skills make up the foundation of my approach to design today.</p>
+            <p>Before pursuing a career in design, I studied comparative literature, foreign languages and journalism. I learned
+                the importance of empathizing with others’ perspectives across backgrounds and cultures, questioning my own
+                assumptions, and considering the larger context of my work. These skills make up the foundation of my approach
+                to design today.</p>
 
         </div>
 
-        <div class="main-content-grid__sideBar slideIn">
+        <div class="main-content-grid__sideBar" data-scroll>
             <div class="main-content-grid__sideBar__firstRow">
                 <h6>Contact</h6>
                 <p>tori.sgarro@gmail.com</p>
@@ -82,21 +84,23 @@
         <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
     </div>
 
-    <script src="./assets/javascript/ScrollTrigger.min.js"></script>
+    <script src="../assets/javascript/ScrollTrigger.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var trigger = new ScrollTrigger({
                 toggle: {
-                    visible: 'visibleClass',
-                    hidden: 'hiddenClass'
+                    visible: 'slideIn',
+                    hidden: 'beforeAnimation'
                 },
                 offset: {
                     x: 0,
-                    y: 20
+                    y: 50
                 },
-                addHeight: true,
+                // addHeight: true,
                 once: true
             }, document.body, window);
         });
     </script>
+</body>
+
 </html>

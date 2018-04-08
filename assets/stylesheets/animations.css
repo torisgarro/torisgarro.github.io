@@ -29,15 +29,12 @@
     transform: scale(1.09);
 }
 
-/* Scroll Trigger Animation -- NOT WORKING */
-
-.visible {
-    -webkit-animation: slidein 1s ease forwards;
-    -moz-animation: slidein 1s ease forwards;
-    animation: slidein 1s ease forwards;
-}
-
 /* Slide In Animation */
+
+.beforeAnimation {
+    transform: translate3d(0, 10%, 0);
+    opacity: 0;
+}
 
  .slideIn {
     -webkit-animation: slidein 1s ease forwards;

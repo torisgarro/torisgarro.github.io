@@ -21,7 +21,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,15 +40,15 @@
     </div>
 
     <div class="wrapperContent">
-        <div class="main-content-grid__pageText--center slideIn" data-scroll>
+        <div class="main-content-grid__pageText--center" data-scroll>
             <h1>Megaphone</h1>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/mgphn-hero.jpg" alt="Megaphone.fm Home Screenshot" class="heroPhoto">
         </div>
 
-        <div class="main-content-grid__pageText slideIn" data-scroll>
+        <div class="main-content-grid__pageText" data-scroll>
             <div>
                 <h2>Megaphone is a dynamic ad platform for podcasts. I led the design of new features that allow publishers to reconcile projected and delivered revenue in the platform.</h2>
                 <h3>Background</h3>
@@ -61,7 +60,7 @@
             </div>
         </div>
 
-        <div class="main-content-grid__sideBar slideIn" data-scroll>
+        <div class="main-content-grid__sideBar" data-scroll>
             <div class="main-content-grid__sideBar__firstRow">
                 <h6>My Role</h6>
                 <p>UI/UX Design Lead, Panoply Media</p>
@@ -82,44 +81,44 @@
     </div>
 
     <div class="wrapperContent--noTopBottomMargin">
-        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/mgphn-userflow-1.png" alt="Megaphone User Flow 1" class="largePhoto">
             <p>Ad trafficker’s flow in Megaphone</p>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/mgphn-userflow-2.png" alt="Megaphone User Flow 2" class="largePhoto">
             <p>Finance user’s flow in Megaphone</p>
         </div>
 
-        <div class="main-content-grid__pageText slideIn" data-scroll>
+        <div class="main-content-grid__pageText" data-scroll>
             <h3>Wireframes</h3>
             <p>I sketched low-fidelity versions of the screens identified in the user flows above.</p>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/mgphn-sketch.jpg" alt="Megaphone Sketches" class="largePhoto">
             <p>Sketches</p>
         </div>
 
-        <div class="main-content-grid__pageText slideIn" data-scroll>
+        <div class="main-content-grid__pageText" data-scroll>
             <h3>Mockups</h3>
             <p>I created high-fidelity mockups using the style guide maintained by our design team. The result is the introduction of a new finance user role and billing section in the platform, in addition to changes made across existing screens.</p>
             <p>(Megaphone is not yet responsive, so I designed for desktop.)</p>
         </div>
 
-        <div class="main-content-grid__fullWidthImage slideIn" data-scroll>
+        <div class="main-content-grid__fullWidthImage" data-scroll>
             <img src="../assets/images/mgphn-1.jpg" alt="Megaphone Reconciliation Library Page" class="largePhoto">
             <p>Final reconciliation screens</p>
         </div>
 
-        <div class="main-content-grid__previousProject slideIn" data-scroll>
+        <div class="main-content-grid__previousProject" data-scroll>
             <a href="./pinna.html" class="previous">
                 <img src="../assets/images/chevron-left.png" alt="Left Arrow" class="leftArrow">
                 <strong>Previous Project:</strong> Pinna</a>
         </div>
 
-        <div class="main-content-grid__nextProject slideIn" data-scroll>
+        <div class="main-content-grid__nextProject" data-scroll>
             <a href="./at-what-cost.html" class="next">
                 <strong>Next Project:</strong> At What Cost?
                 <img src="../assets/images/chevron-right.png" alt="Right Arrow" class="rightArrow"></a>
@@ -132,19 +131,19 @@
     </div>
 
 
-    <script src="./assets/javascript/ScrollTrigger.min.js"></script>
+    <script src="../assets/javascript/ScrollTrigger.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var trigger = new ScrollTrigger({
                 toggle: {
-                    visible: 'visibleClass',
-                    hidden: 'hiddenClass'
+                    visible: 'slideIn',
+                    hidden: 'beforeAnimation'
                 },
                 offset: {
                     x: 0,
-                    y: 20
+                    y: 50
                 },
-                addHeight: true,
+                // addHeight: true,
                 once: true
             }, document.body, window);
         });
