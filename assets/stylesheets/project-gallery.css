@@ -22,28 +22,28 @@
     }
 }
 
-#pinnaThumbnail {
+#blogThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
 }
 
-#megaphoneThumbnail {
+#pinnaThumbnail {
     grid-column: 7 / 13;
     justify-self: start;
 }
 
-#gaThumbnail {
+#megaphoneThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
 }
 
-#acThumbnail {
+#gaThumbnail {
     grid-column: 7 / 13;
     justify-self: start;
 }
 
 @media screen and (max-width: 1200px) {
-    #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail, #acThumbnail {
+    #blogThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
         grid-column: 1 / 13;
         justify-self: center;
     }
