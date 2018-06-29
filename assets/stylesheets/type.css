@@ -1,78 +1,77 @@
-body {
-    font-family: 'Cormorant Infant', serif;
-}
-
 h1 {
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.project-gallery__intro h1 {
-    text-align: left;
+    font-family: 'freight-text-pro', serif;
+    font-size: 42px;
+    font-weight: 300;
 }
 
 h2 {
+    font-family: 'freight-text-pro', serif;
     font-size: 24px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 h3 {
-    font-size: 24x;
-    font-weight: 700;
-    letter-spacing: .5px;
+    font-family: 'freight-text-pro', serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
 }
 
 h4 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #44444a;
 }
 
 h5 {
-    font-size: 15px;
-    font-weight: 700;
-    font-style: italic;
-    padding: 0 0 5px 0;
-    margin: 0;
-}
-
-h6 {
-    font-size: 15px;
+    font-family: 'freight-text-pro', serif;
+    font-size: 20px;
     font-weight: 300;
     font-style: italic;
-    padding: 0;
-    margin: 0;
-    line-height: 21px;
 }
 
 p {
-    font-size: 15px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 24px;
+    color: #44444a;
 }
 
 a {
+    font-family: "futura-pt", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     text-decoration: none;
     color: black;
-    line-height: 21px;
+    line-height: 24px;
 }
 
-a:hover, .next:hover, .previous:hover {
-    color: #00a2e1;
+/* a:hover, .next:hover, .previous:hover {
+    color: hsl(197, 100%, 44%);
+} */
+
+a:visited {
+    color: black;
 }
 
 #pinnaThumbnail:hover, #megaphoneThumbnail:hover, #gaThumbnail:hover, #acThumbnail:hover {
     color: black;
 }
 
-.thumbnailContainer h4 {
-    margin-top: 15px;
+.wrapperNav__nav a {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
-a:visited {
-    color: black;
+.thumbnailContainer h4 {
+    margin-top: 15px;
 }
 
 span {
@@ -106,6 +105,11 @@ span {
     
     h2 {
         font-size: 22px;
-        line-height: auto;
+        line-height: 33px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 33px;
     }
 }

@@ -23,19 +23,17 @@
     }
 }
 
-.main-content-grid__sideBar p {
-    font-style: italic;
-    line-height: 21px;
-}
-
-.main-content-grid__sideBar h6 {
-    line-height: 15px;
+.main-content-grid__sideBar h4 {
     color: #9B9B9B;
 }
 
-.sideBarLink:hover {
-    color: #00a2e1;
+.main-content-grid__sideBar p {
+    line-height: 21px;
 }
+
+/* .sideBarLink:hover {
+    color: #00a2e1;
+} */
 
 .main-content-grid__sideBar__firstRow {
     border-bottom: 1px solid #f7f7f7;
