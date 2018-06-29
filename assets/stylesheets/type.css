@@ -19,10 +19,9 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 24x;
     font-weight: 700;
     letter-spacing: .5px;
-    text-transform: uppercase;
 }
 
 h4 {
@@ -51,7 +50,7 @@ h6 {
 p {
     font-size: 15px;
     font-weight: 300;
-    line-height: 21px;
+    line-height: 22px;
 }
 
 a {
