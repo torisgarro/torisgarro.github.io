@@ -22,23 +22,23 @@
     }
 }
 
-#blogThumbnail {
+/* #blogThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
-}
+} */
 
 #pinnaThumbnail {
-    grid-column: 7 / 13;
+    grid-column: 1 / 7;
     justify-self: start;
 }
 
 #megaphoneThumbnail {
-    grid-column: 1 / 7;
+    grid-column: 7 / 13;
     justify-self: start;
 }
 
 #gaThumbnail {
-    grid-column: 7 / 13;
+    grid-column: 1 / 7;
     justify-self: start;
 }
 
