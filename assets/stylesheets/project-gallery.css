@@ -43,27 +43,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
-=======
-    #blogThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
->>>>>>> parent of 336e2b3... Tried to fix gallery
-=======
-    #blogThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
->>>>>>> parent of 336e2b3... Tried to fix gallery
-=======
-    #blogThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
->>>>>>> parent of 336e2b3... Tried to fix gallery
-=======
-    #blogThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #gaThumbnail  {
->>>>>>> parent of 336e2b3... Tried to fix gallery
-=======
-    #blogThumbnail, #megaphoneThumbnail, #gaThumbnail  {
->>>>>>> parent of ea956fd... Tried to fix gallery again
         grid-column: 1 / 13;
         justify-self: center;
     }
