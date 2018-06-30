@@ -35,12 +35,12 @@
     justify-self: start;
 } */
 
-#pinnaThumbnail {
+#megaphoneThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
 }
 
-#megaphoneThumbnail {
+#pinnaThumbnail {
     grid-column: 7 / 13;
     justify-self: start;
 }
