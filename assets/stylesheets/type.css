@@ -19,7 +19,7 @@ h3 {
 }
 
 h4 {
-    font-family: "futura-pt", sans-serif;
+    font-family: "freight-sans-pro",sans-serif;
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
@@ -36,7 +36,7 @@ h5 {
 }
 
 p {
-    font-family: "futura-pt", sans-serif;
+    font-family: "freight-sans-pro",sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -44,7 +44,7 @@ p {
 }
 
 a {
-    font-family: "futura-pt", sans-serif;
+    font-family: "freight-sans-pro",sans-serif;
     font-size: 16px;
     font-weight: 300;
     text-decoration: none;
@@ -66,8 +66,8 @@ a:visited {
 }
 
 .wrapperNav__nav a {
-    font-family: "futura-pt", sans-serif;
-    font-weight: 300;
+    font-family: "freight-sans-pro",sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
