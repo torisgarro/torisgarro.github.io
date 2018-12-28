@@ -1,68 +1,77 @@
 h1 {
-    font-family: 'freight-text-pro', serif;
-    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
     font-weight: 300;
+    line-height: 66px;
+    color: #232323;
 }
 
 h2 {
-    font-family: 'freight-text-pro', serif;
-    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
     font-weight: 300;
-    line-height: 36px;
+    line-height: 49px;
+    color: #232323;
 }
 
 h3 {
-    font-family: 'freight-text-pro', serif;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 49px;
+    color: #232323;
 }
 
 h4 {
-    font-family: "freight-sans-pro",sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 21px;
-    color: #44444a;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #232323;
 }
 
 h5 {
-    font-family: 'freight-text-pro', serif;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #232323;
 }
 
 p {
-    font-family: "freight-sans-pro",sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
-    color: #44444a;
+    color: #232323;
+}
+
+.whiteText {
+    color: #ffffff;
 }
 
 a {
-    font-family: "freight-sans-pro",sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    text-decoration: none;
-    color: black;
     line-height: 24px;
+    text-decoration: none;
+    color: #232323;
 }
 
 a:hover, .next:hover, .previous:hover {
     /* color: hsl(197, 100%, 44%); */
-    color: black;
+    color: #232323;
 }
 
 a:visited {
-    color: black;
+    color: #232323;
 }
 
 #pinnaThumbnail:hover, #megaphoneThumbnail:hover, #gaThumbnail:hover, #acThumbnail:hover {
-    color: black;
+    color: #232323;
 }
 
 .wrapperNav__nav a {

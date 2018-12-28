@@ -15,15 +15,19 @@
     <meta charset="utf-8">
     <title>Victoria Sgarro</title>
 
-    <link rel="stylesheet" href="https://use.typekit.net/ffn7dyr.css">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/ffn7dyr.css"> -->
 
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+    <link href="./assets/stylesheets/about-me.css" rel="stylesheet">
     <link href="./assets/stylesheets/animations.css" rel="stylesheet">
+    <link href="./assets/stylesheets/case-studies.css" rel="stylesheet">
     <link href="./assets/stylesheets/footer.css" rel="stylesheet">
     <link href="./assets/stylesheets/images.css" rel="stylesheet">
+    <link href="./assets/stylesheets/landing.css" rel="stylesheet">
     <link href="./assets/stylesheets/main-content-grid.css" rel="stylesheet">
     <link href="./assets/stylesheets/nav.css" rel="stylesheet">
     <link href="./assets/stylesheets/photography-page.css" rel="stylesheet">
-    <link href="./assets/stylesheets/project-gallery.css" rel="stylesheet">
     <link href="./assets/stylesheets/side-bar.css" rel="stylesheet">
     <link href="./assets/stylesheets/type.css" rel="stylesheet">
     <link href="./assets/stylesheets/writing-page.css" rel="stylesheet">
@@ -36,55 +40,100 @@
 
     <div class="wrapperNav">
         <a href="index.html" class="wrapperNav__logo">
-            <h5>Victoria Sgarro</h5>
-            <!-- <h6>UI/UX Designer</h6> -->
+            <img src="./assets/images/vLogo.svg" alt="Victoria Sgarro">
         </a>
 
-        <div class="wrapperNav__nav">
-            <a href="index.html" class="navOption navOption--active" id="projects">Projects</a>
-            <a href="./photography/index.html" class="navOption" id="photography">Photos</a>
-            <a href="./writing/index.html" class="navOption" id="writing">Writing</a>
-            <a href="./about/index.html" class="navOption" id="about">About</a>
+        <div class="wrapperNav__contact">
+            <p>Say hello</p>
         </div>
     </div>
 
-    <div class="wrapperContent">
-        <div class="project-gallery__intro" data-scroll>
-            <h1>I’m a product designer living in Washington, D.C.</h1>
-            <h2>Working at First Look Media.</h2>
+    <!-- Landing -->
+    <div class="wrapperContent--intro">
+        <div class="landing__introText" data-scroll>
+            <h1>I’m a product designer working at First Look Media and living in New York City.</h1>
+            <p>Nice to meet you.</p>
         </div>
-
-        <!-- <a href="./projects/panoply-blog.html" id="blogThumbnail" data-scroll>
-            <div id="testing" class="thumbnailContainer">
-                <img src="./assets/images/blog-thumb.jpg" alt="Thumbnail for Panoply Blog" class="thumbnail">
+        <div class="landing__scrollDown" data-scroll>
+            <p>More</p>
+            <div class="landing__scrollIndicatorDecoration"></div>
+        </div>
+    </div>
+    <!-- About Me -->
+    <div class="background--aboutMe">
+        <div class="wrapperContent--aboutMe">
+            <div class="aboutMe__aboutMeText" data-scroll>
+                <h5 class="whiteText">About me</h5>
+                <h2 class="whiteText">I’m interested in how design impacts human behavior, and what that means for our
+                    future.</h2>
             </div>
-            <h2>Panoply Tech Blog – Building a blog for our design and dev team</h2>
-        </a> -->
-
+        </div>
+        <div class="aboutMe__thumbnails">
+            <div class="aboutMe__thumbnail--slate" data-scroll>
+                <a href="#">
+                    <img src="./assets/images/linkout.svg" alt="Link Out Icon">
+                    <p class="whiteText">Slate Magazine</p>
+                    <h3 class="whiteText">What are ethics in design?</h3>
+                </a>
+            </div>
+            <div class="aboutMe__thumbnail--aiga" data-scroll>
+                <a href="#">
+                    <img src="./assets/images/linkout.svg" alt="Link Out Icon">
+                    <p class="whiteText">AIGA Emerge</p>
+                    <h3 class="whiteText">The Edge Effect</h3>
+                </a>
+            </div>
+            <div class="aboutMe__thumbnail--ga" data-scroll>
+                <a href="#">
+                    <img src="./assets/images/linkout.svg" alt="Link Out Icon">
+                    <p class="whiteText">Personal project</p>
+                    <h3 class="whiteText">At What Cost?</h3>
+                </a>
+            </div>
+            </a>
+        </div>
+    </div>
+    <!-- Case Studies -->
+    <div class="caseStudies">
+        <h5>Case Studies</h5>
         <a href="./projects/megaphone.html" id="megaphoneThumbnail" data-scroll>
             <div class="thumbnailContainer">
-                <img src="./assets/images/mgphn-thumb.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
+                <img src="./assets/images/mgphn-thumb-2x.png" alt="Thumbnail for Megaphone" class="thumbnail">
+                <div class="thumbnailContainer__text">
+                    <h3>Megaphone</h3>
+                    <p>Enterprise tech for indie podcasters.</p>
+                </div>
             </div>
-            <h2>Megaphone – Enterprise tech for independent podcasters</h2>
         </a>
-
         <a href="./projects/pinna.html" id="pinnaThumbnail" data-scroll>
-            <div id="testing" class="thumbnailContainer">
-                <img src="./assets/images/pinna-thumb.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
-            </div>
-            <h2>Pinna – An audio app for kids</h2>
-        </a>
-
-        <a href="./projects/at-what-cost.html" id="gaThumbnail" data-scroll>
             <div class="thumbnailContainer">
-                <img src="./assets/images/ga-thumb.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
+                <img src="./assets/images/pinna-thumb-2x.png" alt="Thumbnail for Pinna" class="thumbnail">
+                <div class="thumbnailContainer__text">
+                    <h3>Pinna</h3>
+                    <p>An audio app for kids.</p>
+                </div>
             </div>
-            <h2>At What Cost? – A tool for designers to think about ethics</h2>
         </a>
     </div>
 
-    <div class="wrapperFooter">
-        <p>Coded with ♥ in Washington, D.C. Copyright 2018, Victoria Sgarro.</p>
+    <div class="footerBackground">
+        <div class="wrapperFooter">
+            <div class="wrapperFooter__connect">
+                <p>Connect</p>
+            </div>
+            <a href="#" class="wrapperFooter__linkedin">
+                <p>LinkedIn</p>
+            </a>
+            <a href="#" class="wrapperFooter__dribbble">
+                <p>Dribbble</p>
+            </a>
+            <a href="#" class="wrapperFooter__instagram">
+                <p>Instagram</p>
+            </a>
+            <div class="wrapperFooter__copyright">
+                <p>Copyright 2019, Victoria Sgarro.</p>
+            </div>
+        </div>
     </div>
 
     <script src="./assets/javascript/ScrollTrigger.min.js"></script>
