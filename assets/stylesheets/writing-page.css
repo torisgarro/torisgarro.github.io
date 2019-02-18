@@ -1,0 +1,37 @@
+.writing {
+    grid-column: 3 / 11;
+    justify-self: center;
+    text-align: center;
+    margin: 100px auto 0px auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .writing {
+        grid-column: span 12;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .writing {
+        margin-top: 40px;
+    }
+}
+
+.writing h1 {
+    margin-bottom: 40px;
+}
+
+.writing__article {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ecf0f5;
+}
+
+.writing__article--lastRow {
+    margin-bottom: 40px;
+}
+
+
+.writing__link:hover {
+    color: 232323;
+}

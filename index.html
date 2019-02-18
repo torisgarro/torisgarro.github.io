@@ -8,19 +8,22 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-117636873-1');
     </script>
 
     <meta charset="utf-8">
     <title>Victoria Sgarro</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/rws7mfv.css">
 
     <link href="./assets/stylesheets/animations.css" rel="stylesheet">
-    <link href="./assets/stylesheets/list.css" rel="stylesheet">
+    <link href="./assets/stylesheets/footer.css" rel="stylesheet">
+    <link href="./assets/stylesheets/images.css" rel="stylesheet">
     <link href="./assets/stylesheets/main-content-grid.css" rel="stylesheet">
     <link href="./assets/stylesheets/nav.css" rel="stylesheet">
+    <link href="./assets/stylesheets/project-gallery.css" rel="stylesheet">
+    <link href="./assets/stylesheets/side-bar.css" rel="stylesheet">
     <link href="./assets/stylesheets/type.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,49 +32,69 @@
 
 <body>
 
+    <!-- Nav wrapper-->
     <div class="wrapperNav">
         <a href="index.html" class="wrapperNav__logo">
-            <img src="./assets/images/v-logo.svg" alt="Victoria Sgarro">
+            <p>Victoria Sgarro</p>
+        </a>
+
+        <div class="wrapperNav__nav">
+            <a href="index.html" class="navOption navOption--active" id="projects">Projects</a>
+            <a href="./photography/index.html" class="navOption" id="photography">Photos</a>
+            <a href="./writing/index.html" class="navOption" id="writing">Writing</a>
+            <a href="./about/index.html" class="navOption" id="about">About</a>
+        </div>
+    </div>
+
+    <!-- First content wrapper -->
+    <div class="wrapperContent--firstOnPage">
+        <!-- Project gallery intro wrapper -->
+        <div class="project-gallery__intro" data-scroll>
+            <h1>Hi, I’m Tori. I’m a product designer working at <a href="https://firstlook.media/" target="_blank">First
+                    Look Media</a>
+                and living in New York City.</h1>
+        </div>
+        <!-- Thumbnail wrapper -->
+        <a href="./projects/megaphone.html" id="megaphoneThumbnail" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/mgphn-thumb.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
+            </div>
+            <h3>Megaphone</h3>
+            <h4>Research - UX Design - UI Design - Design System</h4>
+            <p>Enterprise technology for independent podcasters.</p>
+        </a>
+        <!-- Thumbnail wrapper -->
+        <a href="./projects/pinna.html" id="pinnaThumbnail" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/pinna-thumb.jpg" alt="Thumbnail for Pinna.fm" class="thumbnail">
+            </div>
+            <h3>Pinna.fm</h3>
+            <h4>Research - Content Strategy - UX Design - UI Design</h4>
+            <p>An audio app for kids.</p>
+        </a>
+        <!-- Thumbnail wrapper -->
+        <a href="./projects/at-what-cost.html" id="awcThumbnail" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/awc-thumb.jpg" alt="Thumbnail for At What Cost?" class="thumbnail">
+            </div>
+            <h3>At What Cost?</h3>
+            <h4>Concept - UI Design - Front-end Development</h4>
+            <p>A tool for designers to consider the broader impact of their work.</p>
+        </a>
+        <!-- Thumbnail wrapper-->
+        <a href="./projects/aiga-emerge.html" id="emergeThumbnail" data-scroll>
+            <div class="thumbnailContainer">
+                <img src="./assets/images/aiga-thumb.jpg" alt="Thumbnail for AIGA Emerge" class="thumbnail">
+            </div>
+            <h3>AIGA Emerging Voices</h3>
+            <h4>Content strategy - Photography - Videography</h4>
+            <p>Spotlighting emerging designers in DC.</p>
         </a>
     </div>
 
-    <div class="wrapperContent">
-        <div class="wrapperContent__content" data-scroll>
-            <h1>Hi, I'm Tori.</h1>
-            <p>I’m a product designer working at <a href="https://firstlook.media/" target="_blank">First Look Media</a>
-                and living in
-                New York City. I’m interested in how design impacts human behavior, and what that means for our future.</p>
-        </div>
-        <div class="wrapperContent__content" data-scroll>
-            <h2>Ideas</h2>
-            <div class="idea">
-                <a href="https://slate.com/technology/2018/08/ethics-in-design-what-exactly-does-that-mean.html" target="_blank">Slate
-                    Magazine</a>
-                <img src="./assets/images/linkout-black.svg" alt="Link out arrow">
-                <p>"What Are 'Ethics in Design'?"</p>
-            </div>
-            <div class="idea">
-                <a href="http://emerge.aiga.org/2018/08/27/the-edge-effect-why-nontraditional-backgrounds-make-stronger-designers/"
-                    target="_blank">AIGA Emerge</a>
-                <img src="./assets/images/linkout-black.svg" alt="Link out arrow">
-                <p>"The Edge Effect: Why Nontraditional Backgrounds Make Stronger Designers"</p>
-            </div>
-            <div class="idea--last">
-                <a href="https://torisgarro.github.io/At-What-Cost/" target="_blank">Personal project</a>
-                <img src="./assets/images/linkout-black.svg" alt="Link out arrow">
-                <p>"At What Cost?"</p>
-            </div>
-        </div>
-        <div class="wrapperContent__content" data-scroll>
-            <h2>Email</h2>
-            <p>tori.sgarro@gmail.com</p>
-            <a href="https://dribbble.com/victoriasgarro" target="_blank"><img src="./assets/images/dribbble-icon.svg"
-                    alt="Dribbble" class="socialIcon"></a>
-            <a href="https://www.instagram.com/torisgarro/" target="_blank"><img src="./assets/images/instagram-icon.svg"
-                    alt="Instagram" class="socialIcon"></a>
-            <a href="https://www.linkedin.com/in/victoria-sgarro/" target="_blank"><img src="./assets/images/linkedin-icon.svg"
-                    alt="Linkedin" class="socialIcon"></a>
-        </div>
+    <!-- Footer wrapper -->
+    <div class="wrapperFooter">
+        <p>Made with ♥ in NYC. Copyright 2019, Victoria Sgarro.</p>
     </div>
 
     <script src="./assets/javascript/ScrollTrigger.min.js"></script>

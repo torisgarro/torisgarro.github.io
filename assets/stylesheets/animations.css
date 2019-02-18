@@ -1,5 +1,4 @@
 /* Thumbnail Animation */
-
 .thumbnail {
     -webkit-transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
@@ -30,7 +29,6 @@
 }
 
 /* Slide In Animation */
-
 .beforeAnimation {
     transform: translate3d(0, 10%, 0);
     opacity: 0;

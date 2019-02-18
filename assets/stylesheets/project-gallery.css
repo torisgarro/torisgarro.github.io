@@ -1,0 +1,66 @@
+/* Project gallery intro text */
+.project-gallery__intro {
+    grid-column: 1 / 10;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .project-gallery__intro {
+        grid-column: 1 / 13;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-gallery__intro {
+        margin-bottom: 40px;
+    }
+}
+
+/* Thumbnail image */
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Megaphone thumbnail container */
+#megaphoneThumbnail {
+    grid-column: 1 / 7;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
+/* Pinna thumbnail container */
+#pinnaThumbnail {
+    grid-column: 7 / 13;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
+/* At What Cost thumbnail container */
+#awcThumbnail {
+    grid-column: 1 / 7;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
+/* AIGA Emerging Voices thumbnail container */
+#emergeThumbnail {
+    grid-column: 7 / 13;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    #pinnaThumbnail, #megaphoneThumbnail, #awcThumbnail, #emergeThumbnail  {
+        grid-column: 1 / 13;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .thumbnailContainer  {
+        margin-top: 80px;
+    }
+}

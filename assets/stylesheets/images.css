@@ -1,0 +1,55 @@
+/* Hero photo */
+.heroPhoto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 400px) {
+    .heroPhoto {
+        margin-bottom: 40px;
+    }
+}
+
+/* Large photo */
+.largePhoto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+/* Two up photos */
+.leftImage {
+    grid-column: 1 / 7;
+    justify-self: start;
+}
+
+.rightImage {
+    grid-column: 7 / 13;
+    justify-self: start;
+}
+
+@media screen and (max-width: 1024px) {
+    .leftImage, .rightImage  {
+        grid-column: 1 / 13;
+        justify-self: center;
+    }
+}
+
+/* Vertical photo */
+.verticalPhoto {
+    max-height: 400px;
+}
+
+/* Arrows */
+.rightArrow {
+    margin-left: 4px;
+    width: 16px;
+}
+
+.leftArrow {
+    margin-right: 4px;
+    width: 16px;
+}
