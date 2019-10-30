@@ -1,80 +1,73 @@
 h1 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 45px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 64px;
     font-weight: 400;
     line-height: 125%;
     color: #232323;
-}
-
-.project-gallery__intro h1 {
-    line-height: 150%;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 125%;
+    color: #232323;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 150%;
     color: #232323;
-}
-
-h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 125%;
-    color: #232323;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h4 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    color: #6e757e;
-}
-
-h5 {
-    font-family: freight-micro-pro, serif;
-    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
     font-weight: 600;
-    font-style: italic;
     line-height: 125%;
     color: #232323;
-}
-
-.main-content-grid__sideBar h4 {
-    font-size: 14px;
-}
-
-@media screen and (max-width: 1024px) {
-    .main-content-grid__sideBar h4 {
-        font-size: 16px;
-    }
+    margin-top: 24px;
+    margin-bottom: 0px;
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16x;
     font-weight: 400;
     line-height: 150%;
     color: #232323;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.grey {
+    color: #6e757e;
 }
 
 a, a :visited {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
-    text-decoration: none;
     color: #232323;
+    text-decoration: none;
 }
 
 .project-gallery__intro a {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 125%;
+    line-height: 150%;
     color: #232323;
 }
 
@@ -90,15 +83,31 @@ strong {
     margin-top: 0px;
 }
 
-@media screen and (max-width: 1024px) {
-    h1, .project-gallery__intro a  {
-        font-size: 34px;
+.next {
+    border-bottom: 1px solid #232323;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-grid__pageText--center {
+        text-align: center;
+    }
+
+    .next {
+        font-size: 24px;
+    }
+
+    .extraMarginTop {
+        margin-top: 40px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    h1, .project-gallery__intro a {
-        font-size: 28px;
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 36px;
     }
 
     .extraMarginTop {

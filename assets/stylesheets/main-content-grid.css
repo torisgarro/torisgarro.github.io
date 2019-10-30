@@ -1,10 +1,14 @@
+body {
+    margin: 0px;
+}
+
 /* Content wrappers */
 .wrapperContent--firstOnPage {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(60px, auto);
     max-width: 1200px;
-    margin: 100px auto 0px auto;
+    margin: 120px auto 0px auto;
     grid-column-gap: 40px;
     grid-row-gap: 20px;
     justify-content: center;
@@ -24,7 +28,7 @@
 
 @media screen and (max-width: 1200px) {
     .wrapperContent--firstOnPage {
-        margin: 100px 40px 0 40px;
+        margin: 80px 40px 0 40px;
     }
 
     .wrapperContent {
@@ -34,7 +38,7 @@
 
 @media screen and (max-width: 400px) {
     .wrapperContent--firstOnPage {
-        margin: 40px 20px 0 20px;
+        margin: 80px 20px 0 20px;
     }
 
     .wrapperContent {
@@ -49,12 +53,12 @@
     justify-self: start;
 }
 
-.main-content-grid__fullWidthImage h4, .leftImage h4, .rightImage h4 {
+.main-content-grid__fullWidthImage p, .leftImage p, .rightImage p {
     margin: 0 0 80px 0;
 }
 
 @media screen and (max-width: 400px) {
-    .main-content-grid__fullWidthImage h4, .leftImage h4, .rightImage h4  {
+    .main-content-grid__fullWidthImage p, .leftImage p, .rightImage p  {
         margin: 0 0 40px 0;
     }
 }
@@ -84,12 +88,12 @@
     }
 }
 
-.main-content-grid__pageText h2 {
+.main-content-grid__pageText h3 {
     margin: 0 0 80px 0;
 }
 
 @media screen and (max-width: 400px) {
-    .main-content-grid__pageText h2 {
+    .main-content-grid__pageText h3 {
         margin: 0 0 40px 0;
     }  
 }
@@ -100,38 +104,18 @@
 }
 
 @media screen and (max-width: 400px) {
-    .main-content-grid__pageText--center h1 {
+    .main-content-grid__pageText--center h2 {
         text-align: center;
     }
 }
 
-/* Previous project and next project*/
-.main-content-grid__previousProject {
-    grid-column: 1 / 7;
-    justify-self: start;
-}
-
+/* Next project wrappers */
 .main-content-grid__nextProject {
-    grid-column: 7 / 13;
-    justify-self: end;
-}
-
-@media screen and (max-width: 600px) {
-    .main-content-grid__previousProject {
-        grid-column: 1 / 13;
-    }
-
-    .main-content-grid__nextProject {
-        grid-column: 1 / 13;
-        justify-self: start;
-    }   
+    grid-column: 1 / 13;
+    justify-self: center;
 }
 
 @media screen and (max-width: 500px) {
-    .main-content-grid__previousProject {
-        grid-column: 1 / 13;
-    }
-
     .wrapperContent--firstOnPage {
         display: block;
     }

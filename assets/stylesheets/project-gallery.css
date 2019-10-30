@@ -1,6 +1,6 @@
 /* Project gallery intro text */
 .project-gallery__intro {
-    grid-column: 1 / 10;
+    grid-column: 1 / 13;
     justify-self: start;
     margin-bottom: 80px;
 }
@@ -24,8 +24,8 @@
     height: auto;
 }
 
-/* Megaphone thumbnail container */
-#megaphoneThumbnail {
+/* Upchieve thumbnail container */
+#upchieveThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
     margin-bottom: 80px;
@@ -38,8 +38,8 @@
     margin-bottom: 80px;
 }
 
-/* At What Cost thumbnail container */
-#awcThumbnail {
+/* Megaphone thumbnail container */
+#megaphoneThumbnail {
     grid-column: 1 / 7;
     justify-self: start;
     margin-bottom: 80px;
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    #pinnaThumbnail, #megaphoneThumbnail, #awcThumbnail, #emergeThumbnail  {
+    #upchieveThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #emergeThumbnail  {
         grid-column: 1 / 13;
         justify-self: center;
     }

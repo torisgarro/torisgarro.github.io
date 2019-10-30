@@ -4,31 +4,31 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(60px, auto);
     max-width: 1200px;
-    margin: 100px auto 0px auto;
+    margin: 120px auto 0px auto;
     grid-column-gap: 40px;
-    grid-row-gap: 100px;
+    grid-row-gap: 80px;
     justify-content: center;
     align-content: start;
 }
 
 @media screen and (max-width: 1200px) {
     .wrapperPhotography {
-        margin: 100px 40px 0 40px;
+        margin: 80px 40px 0 40px;
     }
 }
-    
-@media screen and (max-width: 400px) {
-    .wrapperPhotography {
-        margin: 40px 20px 0 20px;
-     }
-}
-
+   
 @media screen and (max-width: 500px) {
     .wrapperPhotography {
         display: block;
     }
 }
-   
+
+@media screen and (max-width: 400px) {
+    .wrapperPhotography {
+        margin: 80px 20px 0 20px;
+    }
+}
+  
 /* Images in photo wrappers*/
 .wrapperPhotography img {
     display: block;
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 500px) {
     .wrapperPhotography img {
-        margin-top: 40px;
+        margin-top: 80px;
     }
 }  
 

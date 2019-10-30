@@ -2,7 +2,13 @@
     grid-column: 7 / 12;
     justify-self: center;
     text-align: left;
-    margin: 100px auto 0px auto;
+    margin: 120px auto 0px auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutText {
+        margin-top: 80px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,14 +35,19 @@
     grid-column: 1 / 6;
     justify-self: center;
     text-align: left;
-    margin: 100px auto 0px auto;
+    margin: 120px auto 0px auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutImageContainer {
+        margin-top: 80px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .aboutImageContainer {
         grid-column: 1 / 13;
         justify-self: center;
-        margin-top: 80px;
     }
 }
 
