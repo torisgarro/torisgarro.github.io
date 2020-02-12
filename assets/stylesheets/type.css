@@ -71,6 +71,11 @@ a, a :visited {
     color: #232323;
 }
 
+.main-content-grid__pageText a {
+    text-decoration: underline;
+}
+
+
 strong {
     font-weight: 600;
 }
