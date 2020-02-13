@@ -24,36 +24,43 @@
     height: auto;
 }
 
+/* Axios thumbnail container */
+#axiosThumbnail {
+    grid-column: 1 / 7;
+    justify-self: start;
+    margin-bottom: 80px;
+}
+
 /* Upchieve thumbnail container */
 #upchieveThumbnail {
-    grid-column: 1 / 7;
+    grid-column: 7 / 13;
     justify-self: start;
     margin-bottom: 80px;
 }
 
 /* Pinna thumbnail container */
 #pinnaThumbnail {
-    grid-column: 7 / 13;
+    grid-column: 1 / 7;
     justify-self: start;
     margin-bottom: 80px;
 }
 
 /* Megaphone thumbnail container */
 #megaphoneThumbnail {
-    grid-column: 1 / 7;
+    grid-column: 7 / 13;
     justify-self: start;
     margin-bottom: 80px;
 }
 
 /* AIGA Emerging Voices thumbnail container */
 #emergeThumbnail {
-    grid-column: 7 / 13;
+    grid-column: 1 / 7;
     justify-self: start;
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {
-    #upchieveThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #emergeThumbnail  {
+    #axiosThumbnail, #upchieveThumbnail, #pinnaThumbnail, #megaphoneThumbnail, #emergeThumbnail  {
         grid-column: 1 / 13;
         justify-self: center;
     }
