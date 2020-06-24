@@ -58,6 +58,10 @@
     color: 232323;
 }
 
+.wrapperNav__nav a:hover {
+    border-bottom: solid 1px #232323;
+  }
+
 .navOption {
     margin: 0 30px;
     padding-bottom: 5px;

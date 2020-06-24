@@ -75,6 +75,9 @@ a, a :visited {
     text-decoration: underline;
 }
 
+.main-content-grid__pageText a:hover {
+    text-decoration: none;
+  }
 
 strong {
     font-weight: 600;
