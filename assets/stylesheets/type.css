@@ -38,12 +38,20 @@ h4 {
     margin-bottom: 0px;
 }
 
-p {
+p, li {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16x;
     font-weight: 400;
     line-height: 150%;
     color: #232323;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: -20px;
 }
 
 .caption {
