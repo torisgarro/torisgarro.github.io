@@ -1,7 +1,7 @@
 h1 {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'roc-grotesk', sans-serif;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 125%;
     color: #232323;
     margin-top: 0px;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'roc-grotesk', sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 125%;
@@ -19,27 +19,41 @@ h2 {
 }
 
 h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'roc-grotesk', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    line-height: 150%;
-    color: #232323;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h4 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
     line-height: 125%;
     color: #232323;
     margin-top: 24px;
     margin-bottom: 0px;
 }
 
+h4 {
+    font-family: 'roc-grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    color: #232323;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-family: 'roc-grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 125%;
+    color: #232323;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-content-grid__sideBar__row h5, .main-content-grid__sideBar__row--first h5, .main-content-grid__sideBar__row--last h5 {
+    margin-bottom: 12px;
+}
+
 p, li {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'freight-text-pro', serif;
     font-size: 16x;
     font-weight: 400;
     line-height: 150%;
@@ -55,28 +69,24 @@ ul {
 }
 
 .caption {
-    font-size: 12px;
+    font-style: italic;
 }
 
 .grey {
     color: #6e757e;
 }
 
+.strong {
+    font-weight: 500;
+}
+
 a, a :visited {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'roc-grotesk', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
     color: #232323;
     text-decoration: none;
-}
-
-.project-gallery__intro a {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    color: #232323;
 }
 
 .main-content-grid__pageText a {
@@ -86,10 +96,6 @@ a, a :visited {
 .main-content-grid__pageText a:hover {
     text-decoration: none;
   }
-
-strong {
-    font-weight: 600;
-}
 
 .extraMarginTop {
     margin-top: 80px;
