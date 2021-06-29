@@ -14,15 +14,12 @@
     <meta charset="utf-8">
     <title>Victoria Sgarro</title>
 
-    <link rel="stylesheet" href="https://use.typekit.net/xcs3ipy.css">
-
     <link href="./assets/stylesheets/animations.css" rel="stylesheet">
+    <link href="./assets/stylesheets/fonts.css" rel="stylesheet">
     <link href="./assets/stylesheets/footer.css" rel="stylesheet">
     <link href="./assets/stylesheets/images.css" rel="stylesheet">
-    <link href="./assets/stylesheets/main-content-grid.css" rel="stylesheet">
+    <link href="./assets/stylesheets/layout.css" rel="stylesheet">
     <link href="./assets/stylesheets/nav.css" rel="stylesheet">
-    <link href="./assets/stylesheets/project-gallery.css" rel="stylesheet">
-    <link href="./assets/stylesheets/side-bar.css" rel="stylesheet">
     <link href="./assets/stylesheets/type.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,94 +28,66 @@
 
 <body>
 
-    <!-- Nav wrapper-->
-    <div class="wrapperNav">
-        <a href="index.html" class="wrapperNav__logo">
-            <h4 class="strong">Victoria Sgarro</h4>
-        </a>
+    <!-- 12-column grid -->
+    <div class="twelve-grid">
 
-        <div class="wrapperNav__nav">
-            <a href="index.html" class="navOption navOption--active" id="projects">Projects</a>
-            <a href="./photography/index.html" class="navOption" id="photography">Photos</a>
-            <a href="./writing/index.html" class="navOption" id="writing">Writing</a>
-            <a href="./about/index.html" class="navOption" id="about">About</a>
+        <!-- Nav wrapper -->
+        <div class="wrapperNav">
+            <div class="wrapperNav_navItem">
+                <a href="index.html" class="navItem navItem--active" id="design">• Design</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="./photography/index.html" class="navItem" id="photography">Photos</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="./about/index.html" class="navItem" id="about">About</a>
+            </div>
         </div>
-    </div>
 
-    <!-- First content wrapper -->
-    <div class="wrapperContent--firstOnPage">
-        <!-- Project gallery intro wrapper -->
-        <div class="project-gallery__intro" data-scroll>
-            <h1>Hi, I’m Tori, a product designer based in New York City.</h1>
+        <!-- Content wrapper -->
+        <div class="wrapperContent">
+            <div class="nine-grid">
+                <div class="galleryIntro" data-scroll>
+                    <h1>Tori Sgarro is a product designer based in New York City.</h1>
+                </div>
+                <!-- Project -->
+                <div class="galleryProjectThumbnail" data-scroll>
+                    <a href="./projects/hard-truths.html">
+                        <img src="./assets/images/hard-truths-mobile.jpg" alt="Thumbnail for Hard Truths"
+                            class="thumbnail">
+                    </a>
+                </div>
+                <div class="galleryProjectTitle" data-scroll>
+                    <a href="./projects/hard-truths.html">
+                        <h3>Axios – Hard Truths</h3>
+                    </a>
+                </div>
+                <div class="galleryProjectInfo" data-scroll>
+                    <h5>Product design</h5>
+                    <h5>2020</h5>
+                </div>
+                <!-- Project -->
+                <div class="galleryProjectThumbnail" data-scroll>
+                    <a href="./index.html">
+                        <img src="./assets/images/placeholder.jpg" alt="Thumbnail Placeholder" class="thumbnail">
+                    </a>
+                </div>
+                <div class="galleryProjectTitle" data-scroll>
+                    <a href="./index.html">
+                        <h3>More Coming Soon</h3>
+                    </a>
+                </div>
+                <div class="galleryProjectInfo" data-scroll>
+                    <h5>Product design</h5>
+                    <h5>2021</h5>
+                </div>
+            </div>
         </div>
-        <!-- Thumbnail wrapper -->
-        <a href="./projects/hard-truths.html" id="hardTruthsThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/hard-truths-thumb.jpg" alt="Thumbnail for Hard Truths" class="thumbnail">
-            </div>
-            <h3>Hard Truths</h3>
-            <p>A storytelling format to report on systemic racism.</p>
-            <h5 class="grey">Visual Identity – Web Design – Interaction Design</h5>
-        </a>
-         <!-- Thumbnail wrapper -->
-         <a href="./projects/axios.html" id="axiosThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/axios-thumb.jpg" alt="Thumbnail for Axios" class="thumbnail">
-            </div>
-            <h3>Axios</h3>
-            <p>News worthy of readers’ time and attention.</p>
-            <h5 class="grey">Research – Web Design – Design System</h5>
-        </a>
-        <!-- Thumbnail wrapper -->
-        <a href="./projects/upchieve.html" id="upchieveThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/upchieve-thumb.jpg" alt="Thumbnail for Upchieve" class="thumbnail">
-            </div>
-            <h3>Upchieve</h3>
-            <p>Online homework help for underserved students.</p>
-            <h5 class="grey">App Design – Interaction Design – Design System</h5>
-        </a>
-        <!-- Thumbnail wrapper -->
-        <a href="./projects/fov.html" id="fovThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/fov-thumb.jpg" alt="Thumbnail for Field of Vision Security Guide" class="thumbnail">
-            </div>
-            <h3>Field of Vision</h3>
-            <p>A digital security guide for documentary filmmakers.</p>
-            <h5 class="grey">Research – Web Design</h5>
-        </a>
-        <!-- Thumbnail wrapper -->
-        <a href="./projects/pinna.html" id="pinnaThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/pinna-thumb.jpg" alt="Thumbnail for Pinna" class="thumbnail">
-            </div>
-            <h3>Pinna</h3>
-            <p>Marketing an audio app for kids.</p>
-            <h5 class="grey">Research – Visual Identity – Web Design</h5>
-        </a>
-        <!-- Thumbnail wrapper -->
-        <a href="./projects/megaphone.html" id="megaphoneThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/mgphn-thumb.jpg" alt="Thumbnail for Megaphone.fm" class="thumbnail">
-            </div>
-            <h3>Megaphone</h3>
-            <p>Enterprise technology for independent podcasters.</p>
-            <h5 class="grey">Research – Web Design – App Design – Design System</h5>
-        </a>
-        <!-- Thumbnail wrapper-->
-        <a href="./projects/aiga-emerge.html" id="emergeThumbnail" data-scroll>
-            <div class="thumbnailContainer">
-                <img src="./assets/images/aiga-thumb.jpg" alt="Thumbnail for AIGA Emerge" class="thumbnail">
-            </div>
-            <h3>AIGA Emerge</h3>
-            <p>Spotlighting emerging designers in DC.</p>
-            <h5 class="grey">Content Strategy – Photography – Videography</h5>
-        </a>
-    </div>
 
-    <!-- Footer wrapper -->
-    <div class="wrapperFooter">
-        <h4>Made with ♥ in NYC. (This site uses CSS grid.)</h4>
+        <!-- Footer wrapper -->
+        <div class="wrapperFooter" data-scroll>
+            <h5>Designed and developed by Victoria Sgarro, 2021.</h5>
+        </div>
     </div>
 
     <script src="./assets/javascript/ScrollTrigger.min.js"></script>

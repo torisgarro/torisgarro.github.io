@@ -13,66 +13,72 @@
     </script>
 
     <meta charset="utf-8">
-    <title>Victoria Sgarro | About</title>
-
-    <link rel="stylesheet" href="https://use.typekit.net/xcs3ipy.css">
+    <title>Victoria Sgarro</title>
 
     <link href="../assets/stylesheets/animations.css" rel="stylesheet">
-    <link href="../assets/stylesheets/about-page.css" rel="stylesheet">
+    <link href="../assets/stylesheets/fonts.css" rel="stylesheet">
     <link href="../assets/stylesheets/footer.css" rel="stylesheet">
-    <link href="../assets/stylesheets/main-content-grid.css" rel="stylesheet">
+    <link href="../assets/stylesheets/images.css" rel="stylesheet">
+    <link href="../assets/stylesheets/layout.css" rel="stylesheet">
     <link href="../assets/stylesheets/nav.css" rel="stylesheet">
     <link href="../assets/stylesheets/type.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
 </head>
 
 <body>
 
-    <!-- Nav wrapper-->
-    <div class="wrapperNav">
-        <a href="../index.html" class="wrapperNav__logo">
-            <h4 class="strong">Victoria Sgarro</h4>
-        </a>
+    <!-- 12-column grid -->
+    <div class="twelve-grid">
 
-        <div class="wrapperNav__nav">
-            <a href="../index.html" class="navOption" id="projects">Projects</a>
-            <a href="../photography/index.html" class="navOption" id="photography">Photos</a>
-            <a href="../writing/index.html" class="navOption" id="writing">Writing</a>
-            <a href="../about/index.html" class="navOption navOption--active" id="about">About</a>
+        <!-- Nav wrapper -->
+        <div class="wrapperNav">
+            <div class="wrapperNav_navItem">
+                <a href="../index.html" class="navItem" id="design">• Design</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="../photography/index.html" class="navItem" id="photography">Photos</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="../about/index.html" class="navItem navItem--active" id="about">About</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <p>Currently: Senior Product Designer at The Atlantic</p>
+            </div>
         </div>
-    </div>
-
-    <!-- First content wrapper -->
-    <div class="wrapperContent">
-        <!-- About image wrapper -->
-        <div class="aboutImageContainer" data-scroll>
-            <img src="../assets/images/Tori.jpg" alt="About Photo" class="aboutImage">
+        <!-- Content wrapper -->
+        <div class="wrapperContent">
+            <div class="nine-grid">
+                <div class="aboutHeader" data-scroll>
+                    <h2>About</h2>
+                </div>
+                <div class="aboutText" data-scroll>
+                    <h4>I’m a product designer with a background in research and writing. After studying comparative
+                        literature at Washington University in St. Louis, I moved to Italy to pursue my interests in
+                        photography and design. Since then, I’ve worked as a designer in New York and DC.</h4>
+                </div>
+                <div class="aboutText" data-scroll>
+                    <h4>I’m most interested in understanding the political and economic context of design, so I'm
+                        currently studying for a master’s in economics at The New School for Social Research.</h4>
+                </div>
+                <div class="aboutImage" data-scroll>
+                    <img src="../assets/images/profile-photo.jpg" alt="Profile Image" class="largePhoto">
+                </div>
+                <div class="aboutImageCaption" data-scroll>
+                    <h5 class="caption">Photo by Jen Huang</h5>
+                </div>
+                <div class="aboutWriting" data-scroll>
+                    <h3>Thoughts</h3>
+                    <!-- <a href="" target="_blank"><p>"The Limits of Design Ethics Under Capitalism," Developing Economics</p></a> -->
+                    <a href="https://slate.com/technology/2018/08/ethics-in-design-what-exactly-does-that-mean.html" target="_blank"><p>"What Are 'Ethics in Design'?," Slate</p></a>
+                </div>
+            </div>
         </div>
-
-        <!-- About text wrapper -->
-        <div class="aboutText" data-scroll>
-            <h2 class="leftAlign">About</h2>
-            <p>I’m a product designer with a background in research and writing. After studying comparative literature at Washington University in St. Louis, I moved to Italy to pursue my interests in photography and design. Since then, I’ve worked as a designer in New York and DC.</p>
-
-            <p>I’m most interested in understanding the political and economic context of design, so I'm currently studying for a master’s in economics at The New School for Social Research.</p>
-            
-            <a href="https://dribbble.com/victoriasgarro" target="_blank">
-                <img src="../assets/images/dribbble-icon.svg" alt="Dribbble Icon" class="socialIcon">
-            </a>
-            <a href="https://www.linkedin.com/in/victoria-sgarro/" target="_blank">
-                <img src="../assets/images/linkedin-icon.svg" alt="LinkedIn Icon" class="socialIcon">
-            </a>
-            <a href="mailto:tori.sgarro@gmail.com">
-                <img src="../assets/images/email-icon.svg" alt="Email Icon" class="socialIcon">
-            </a>
+        <!-- Footer wrapper -->
+        <div class="wrapperFooter" data-scroll>
+            <h5>Designed and developed by Victoria Sgarro, 2021.</h5>
         </div>
-    </div>
-
-    <!-- Footer wrapper -->
-    <div class="wrapperFooter">
-        <h4>Made with ♥ in NYC. (This site uses CSS grid.)</h4>
     </div>
 
     <script src="../assets/javascript/ScrollTrigger.min.js"></script>
