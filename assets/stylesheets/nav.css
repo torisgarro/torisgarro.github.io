@@ -33,3 +33,9 @@
         grid-column: 1 / 13;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .wrapperNav_navItem {
+        margin-bottom: 24px;
+    }
+}
