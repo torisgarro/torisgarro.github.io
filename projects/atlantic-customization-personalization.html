@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117636873-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-117636873-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Victoria Sgarro</title>
+
+    <link href="../assets/stylesheets/animations.css" rel="stylesheet">
+    <link href="../assets/stylesheets/fonts.css" rel="stylesheet">
+    <link href="../assets/stylesheets/footer.css" rel="stylesheet">
+    <link href="../assets/stylesheets/images.css" rel="stylesheet">
+    <link href="../assets/stylesheets/layout.css" rel="stylesheet">
+    <link href="../assets/stylesheets/nav.css" rel="stylesheet">
+    <link href="../assets/stylesheets/type.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- 12-column grid -->
+    <div class="twelve-grid">
+
+        <!-- Nav wrapper -->
+        <div class="wrapperNav">
+            <div class="wrapperNav_navItem">
+                <a href="../index.html" class="navItem navItem--active" id="design">• Design</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="../photography/index.html" class="navItem" id="photography">Photos</a>
+            </div>
+            <div class="wrapperNav_navItem">
+                <a href="../about/index.html" class="navItem" id="about">About</a>
+            </div>
+        </div>
+
+        <!-- Content wrapper -->
+        <div class="wrapperContent">
+            <div class="nine-grid">
+                <div class="projectIntro" data-scroll>
+                    <h2>Customization & Personalization</h2>
+                    <h4>We are designing customization and personalization features (e.g. follow, save, reading history) to encourage readers to form habits with The Atlantic’s journalism, improving subscriber retention.</h4>
+                </div>
+                <div class="projectDetails" data-scroll>
+                    <h5>Year: 2021-2022</h5>
+                    <h5>My role: Senior product designer</h5>
+                    <h5>In development</a></h5>
+                    </a>
+                </div>
+                <div class="projectText" data-scroll>
+                    <h3>The Problem</h3>
+                    <p>Customization (when a user chooses their experience to meet their need) and personalization (when a product delivers an experience to a user in anticipation of their need) can create more relevant experiences for readers, encouraging habitual use and improving retention. However, many readers love The Atlantic for its editorial judgement – trusting editors to curate the most important stories. How might we serve readers who want a more relevant experience via customization and/or personalization, without alienating readers who value editorial curation (our biggest fans)?</p>
+                    <p><strong>Read:</strong> <a
+                        href="https://www.nngroup.com/articles/customization-personalization/"
+                        target="_blank">Nielsen Norman Group: Customization vs. Personalization</a></p>
+                </div>
+                <div class="projectImage" data-scroll>
+                    <img src="../assets/images/customization-placeholder.jpg" alt="Placeholder (In Progress) Image"
+                        class="largePhoto">
+                </div>
+                <div class="nextProject" data-scroll>
+                    <a href="../projects/atlantic-subscriber-newsletters.html">
+                        <h2>Next Project: Subscriber Newsletters</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer wrapper -->
+        <div class="wrapperFooter" data-scroll>
+            <h5>Designed and developed by Victoria Sgarro, 2022.</h5>
+        </div>
+    </div>
+
+
+
+    <script src="../assets/javascript/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var trigger = new ScrollTrigger({
+                toggle: {
+                    visible: 'slideIn',
+                    hidden: 'beforeAnimation'
+                },
+                offset: {
+                    x: 0,
+                    y: 50
+                },
+                // addHeight: true,
+                once: true
+            }, document.body, window);
+        });
+    </script>
+</body>
+
+</html>
