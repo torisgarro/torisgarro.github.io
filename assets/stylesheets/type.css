@@ -39,6 +39,16 @@ h4 {
     margin: 0px;
 }
 
+.aboutText a {
+    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 125%;
+    color: #232323;
+    margin: 0px;
+    text-decoration: underline;
+}
+
 h5 {
     font-family: 'Authentic Sans', Helvetica, sans-serif;
     font-size: 12px;
