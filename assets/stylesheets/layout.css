@@ -130,6 +130,31 @@ body {
     margin-bottom: 80px;
 }
 
+.projectImage--left {
+    grid-column: 1 / 5;
+    justify-self: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.projectImage--right {
+    grid-column: 6 / 10;
+    justify-self: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 769px) {
+    .projectImage--left {
+        grid-column: 1 / 10;
+    }
+    .projectImage--right {
+        grid-column: 1 / 10;
+    }
+}
+
 .projectText {
     grid-column: 1 / 7;
     margin-bottom: 80px;
