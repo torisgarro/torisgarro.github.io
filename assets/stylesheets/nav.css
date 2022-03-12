@@ -1,6 +1,7 @@
 .wrapperNav {
     grid-column: 1 / 3;
     margin-top: 80px;
+    position: fixed;
 }
 
 .wrapperNav_navItem {
@@ -31,6 +32,7 @@
 @media screen and (max-width: 1024px) {
     .wrapperNav {
         grid-column: 1 / 13;
+        position: static;
     }
 }
 
