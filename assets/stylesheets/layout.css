@@ -245,6 +245,10 @@ body {
     margin-top: 16px;
 }
 
+.extraTopPadding {
+    margin-top: 64px;
+}
+
 @media screen and (max-width: 769px) {  
     .aboutHeader {
         grid-column: 1 / 10;
