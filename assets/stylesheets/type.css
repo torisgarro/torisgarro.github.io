@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-family: 'Graphik', Helvetica, sans-serif;
     font-size: 48px;
     font-weight: 200;
     line-height: 125%;
@@ -13,8 +13,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
-    font-size: 40px;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-size: 36px;
     font-weight: 400;
     line-height: 125%;
     color: #232323;
@@ -22,35 +22,35 @@ h2 {
 }
 
 h3 {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 200;
     line-height: 125%;
     color: #232323;
     margin: 0px;
 }
 
 h4 {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 200;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 125%;
     color: #232323;
     margin: 0px;
 }
 
 .aboutText a {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    line-height: 125%;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
     color: #232323;
     margin: 0px;
     text-decoration: underline;
 }
 
 h5 {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-family: 'Graphik', Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 125%;
@@ -59,16 +59,16 @@ h5 {
 }
 
 p {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-family: 'Graphik', Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 150%;
     color: #232323;
     margin: 0px;
 }
 
 strong {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .caption {
@@ -77,7 +77,7 @@ strong {
 }
 
 a, a :visited {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-family: 'Graphik', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -90,7 +90,7 @@ a, a :visited {
 }
 
 .projectDetails a {
-    font-family: 'Authentic Sans', Helvetica, sans-serif;
+    font-family: 'Graphik', Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 125%;
@@ -104,7 +104,7 @@ a, a :visited {
 
 .projectText a {
     text-decoration: underline;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .projectText a:hover {
@@ -137,6 +137,10 @@ a, a :visited {
     }
 
     h2 {
+        font-size: 32px;
+    }
+
+    h3 {
         font-size: 32px;
     }
 

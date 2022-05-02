@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Authentic Sans";
     src: url("../fonts/AUTHENTICSans-60.woff") format("woff"),
          url("AUTHENTICSans-60.otf") format("opentype");
@@ -19,5 +19,26 @@
     src: url("../fonts/AUTHENTICSans-130.woff") format("woff"),
          url("AUTHENTICSans-130.otf") format("opentype");
     font-weight: 600;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/Graphik-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/Graphik-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/Graphik-Medium.otf") format("opentype");
+    font-weight: 500;
     font-style: normal;
 }

@@ -96,8 +96,8 @@ body {
 
 /* Project Page */
 .projectIntro {
-    grid-column: 1 / 7;
-    margin-bottom: 56px;
+    grid-column: 3 / 10;
+    margin-top: 80px;
 }
 
 .projectIntro h2 {
@@ -105,16 +105,17 @@ body {
 }
 
 .projectDetails {
-    grid-column: 7 / 10;
+    grid-column: 10 / 13;
+    margin-top: 80px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1024px) {
     .projectIntro {
-        grid-column: 1 / 10;
+        grid-column: 1 / 13;
     }
 
     .projectDetails {
-        grid-column: 1 / 10;
+        grid-column: 1 / 13;
     }
 }
 
@@ -223,6 +224,10 @@ body {
 
 .aboutText {
     grid-column: 1 / 7;
+}
+
+.aboutText p {
+    margin-top: 16px
 }
 
 .aboutImage {
