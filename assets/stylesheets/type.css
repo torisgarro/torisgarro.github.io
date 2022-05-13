@@ -67,6 +67,20 @@ p {
     margin: 0px;
 }
 
+ul {
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #232323;
+    margin: 0px;
+    padding-left: 16px;
+}
+
+li {
+    margin-top: 16px;
+}
+
 strong {
     font-weight: 500;
 }
