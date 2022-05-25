@@ -155,7 +155,7 @@ body {
     margin-bottom: 80px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .projectImage {
         grid-column: 1 / 11;
     }
@@ -177,7 +177,7 @@ body {
     margin-top: 24px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .projectText {
         grid-column: 1 / 11;
     }
@@ -214,7 +214,7 @@ body {
     margin-bottom: 56px;
 }
 
-@media screen and (max-width: 769px) {  
+@media screen and (max-width: 768px) {  
     .photoHeader {
         grid-column: 1 / 11;
     }
@@ -270,7 +270,7 @@ body {
     margin-top: 64px;
 }
 
-@media screen and (max-width: 769px) {  
+@media screen and (max-width: 768px) {  
     .aboutHeader {
         grid-column: 1 / 11;
     }
