@@ -19,7 +19,7 @@ body {
 
 .wrapperContent {
     margin-top: 80px;
-    grid-column: 4 / 13;
+    grid-column: 3 / 13;
 }
 
 @media screen and (max-width: 1200px) {
@@ -50,11 +50,11 @@ body {
     }
 }
 
-/* 9-Column Grid */
+/* 10-Column Grid */
 
-.nine-grid {
+.ten-grid {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(40px, auto);
     max-width: 1200px;
     margin: 0 auto;
@@ -67,12 +67,12 @@ body {
 /* Gallery Page */
 
 .galleryIntro{
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
     margin-bottom: 56px;
 }
 
 .galleryProjectThumbnail{
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
 }
 
 .thumbnail {
@@ -86,7 +86,7 @@ body {
 }
 
 .galleryProjectInfo {
-    grid-column: 7 / 10;
+    grid-column: 7 / 11;
     margin-bottom: 64px;
 }
 
@@ -123,8 +123,16 @@ body {
     margin-bottom: 40px;
 }
 
+.projectImage--hero {
+    grid-column: 1 / 11;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
 .projectImage {
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
     display: block;
     max-width: 100%;
     height: auto;
@@ -132,7 +140,7 @@ body {
 }
 
 .projectImage--left {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
     justify-self: center;
     max-width: 100%;
     height: auto;
@@ -140,7 +148,7 @@ body {
 }
 
 .projectImage--right {
-    grid-column: 6 / 10;
+    grid-column: 6 / 11;
     justify-self: center;
     max-width: 100%;
     height: auto;
@@ -148,31 +156,35 @@ body {
 }
 
 @media screen and (max-width: 769px) {
+    .projectImage {
+        grid-column: 1 / 11;
+    }
+
     .projectImage--left {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
     .projectImage--right {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 }
 
 .projectText {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     margin-bottom: 80px;
 }
 
 .projectText p {
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 @media screen and (max-width: 769px) {
     .projectText {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 }
 
 .nextProject {
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
     margin-bottom: 80px;
 }
 
@@ -181,8 +193,12 @@ body {
     grid-column: 1 / 7;
 }
 
+.photoHeader h1 {
+    margin-bottom: 56px;
+}
+
 .photoSubheader {
-    grid-column: 7 / 10;
+    grid-column: 7 / 11;
     margin-bottom: 56px;
 }
 
@@ -193,41 +209,41 @@ body {
 }
 
 .rightImage {
-    grid-column: 6 / 10;
+    grid-column: 7 / 11;
     justify-self: center;
     margin-bottom: 56px;
 }
 
 @media screen and (max-width: 769px) {  
     .photoHeader {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
     
     .photoSubheader {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
         margin-bottom: 56px;
     }
     
     .leftImage {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 
     .rightImage {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 }
 
 /* About Page */
 .aboutHeader {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
 }
 
 .aboutText {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
 }
 
 .aboutText p {
-    margin-top: 16px
+    margin-top: 24px
 }
 
 .aboutImage {
@@ -236,12 +252,12 @@ body {
 }
 
 .aboutImageCaption {
-    grid-column: 5 / 10;
+    grid-column: 5 / 11;
     margin-top: 20px;
 }
 
 .aboutWriting {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     margin-top: 56px;
     margin-bottom: 56px;
 }
@@ -256,15 +272,15 @@ body {
 
 @media screen and (max-width: 769px) {  
     .aboutHeader {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
     
     .aboutText {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 
     .aboutWriting {
-        grid-column: 1 / 10;
+        grid-column: 1 / 11;
     }
 
     .aboutImage {
@@ -273,7 +289,7 @@ body {
     }
     
     .aboutImageCaption {
-        grid-column: 6 / 10;
+        grid-column: 6 / 11;
         margin-top: 20px;
     }
 }
