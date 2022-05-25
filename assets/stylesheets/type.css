@@ -152,23 +152,11 @@ a, a :visited {
         font-size: 40px;
     }
 
-    h2 {
+    h2, h3, h4 {
         font-size: 24px;
     }
 
-    h3 {
-        font-size: 24px;
-    }
-
-    h4 {
-        font-size: 24px;
-    }
-
-    .nextProject h2 {
-        font-size: 24px;
-    }
-
-    p, .aboutText a, a, a :visited {
+    p, .aboutText a, a, a :visited, ul {
         font-size: 20px;
     }
 
