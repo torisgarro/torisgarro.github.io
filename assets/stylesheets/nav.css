@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .wrapperNav_navItem {
         margin-bottom: 24px;
     }
