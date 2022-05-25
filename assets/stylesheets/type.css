@@ -168,7 +168,8 @@ a, a :visited {
         font-size: 24px;
     }
 
-    p {
+    p, .aboutText a, a, a :visited {
         font-size: 20px;
     }
+
 }
