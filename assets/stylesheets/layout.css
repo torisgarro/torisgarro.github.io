@@ -66,12 +66,12 @@ body {
 
 /* Gallery Page */
 
-.galleryIntro{
+.galleryIntro {
     grid-column: 1 / 11;
     margin-bottom: 56px;
 }
 
-.galleryProjectThumbnail{
+.galleryProjectThumbnail {
     grid-column: 1 / 11;
 }
 
@@ -155,6 +155,36 @@ body {
     margin-bottom: 80px;
 }
 
+@media screen and (max-width: 1280px) {
+
+    .projectImage {
+        grid-column: 1 / 9;
+    }
+
+    .projectImage--left {
+        grid-column: 1 / 5;
+    }
+
+    .projectImage--right {
+        grid-column: 5 / 9;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .projectImage {
+        grid-column: 1 / 11;
+    }
+
+    .projectImage--left {
+        grid-column: 1 / 6;
+    }
+
+    .projectImage--right {
+        grid-column: 6 / 11;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .projectImage {
         grid-column: 1 / 11;
@@ -163,6 +193,7 @@ body {
     .projectImage--left {
         grid-column: 1 / 11;
     }
+
     .projectImage--right {
         grid-column: 1 / 11;
     }
@@ -214,16 +245,16 @@ body {
     margin-bottom: 56px;
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {
     .photoHeader {
         grid-column: 1 / 11;
     }
-    
+
     .photoSubheader {
         grid-column: 1 / 11;
         margin-bottom: 56px;
     }
-    
+
     .leftImage {
         grid-column: 1 / 11;
     }
@@ -270,11 +301,11 @@ body {
     margin-top: 64px;
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {
     .aboutHeader {
         grid-column: 1 / 11;
     }
-    
+
     .aboutText {
         grid-column: 1 / 11;
     }
@@ -287,7 +318,7 @@ body {
         grid-column: 1 / 6;
         margin-top: 32px;
     }
-    
+
     .aboutImageCaption {
         grid-column: 6 / 11;
         margin-top: 20px;
