@@ -19,3 +19,9 @@
 .verticalPhoto {
     max-height: 350px;
 }
+
+.icon {
+    height: 16px;
+    display: inline;
+    padding-right: 4px;
+}

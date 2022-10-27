@@ -90,6 +90,37 @@ body {
     margin-bottom: 64px;
 }
 
+.galleryProjectInfo-withPw {
+    grid-column: 7 / 9;
+    margin-bottom: 64px;
+}
+
+.galleryProjectInfo-Pw {
+    grid-column: 9 / 11;
+    margin-bottom: 64px;
+}
+
+.passwordProtected {
+    display: inline;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1210px) {
+    .passwordProtected {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .passwordProtected {
+        display: none;
+    }
+
+    .galleryProjectInfo-Pw {
+        justify-self: right;
+    }    
+}
+
 .galleryProjectInfo h5 {
     margin-bottom: 8px;
 }
