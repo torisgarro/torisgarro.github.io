@@ -328,6 +328,11 @@ body {
     margin-top: 16px;
 }
 
+.aboutWriting h5 {
+    font-weight: 700;
+    margin-top: 40px;
+}
+
 .extraTopPadding {
     margin-top: 64px;
 }
